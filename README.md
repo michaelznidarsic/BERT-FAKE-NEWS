@@ -7,7 +7,7 @@ Articles from the AllTheNews corpus and Several27's FakeNewsCorpus were selected
 
 To reflect the broad continuum of reliability and bias in the real world, the articles for the "Unreliable" label were drawn equally from the "Fake", "Bias", and "Political" labels in FakeNewsCorpus. This was done to introduce the concept of a "gray area" to the model, so that is would not be trained or evaluated only on the difference between professional journalism and informal blogs or social media. 
 
-Phrases that would allow the model to "cheat" (e.g. "New York Times" or "Breitbart") were removed from training and evaluation data. They would allow the model to pick on which publisher had written an article and equate that to reliability. This model was built to be deployed on any news texts of significant length, especially those for which an author or published is not known to the reader. As such, it should not rely on finding the article's source. If it were available, a reader could do that much more effectively.
+Phrases that would allow the model to "cheat" (e.g. "New York Times" or "Breitbart") were removed from training and evaluation data. They would allow the model to pick up on which publisher had written an article and equate that to reliability. This model was built to be deployed on any news texts of significant length, especially those for which an author or published is not known to the reader. As such, it should not rely on finding the article's source. If it were available, a reader could do that much more effectively.
 
 
 

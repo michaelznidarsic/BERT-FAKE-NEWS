@@ -1,7 +1,7 @@
 # BERT-FAKE-NEWS
 Predicts news text's reliability with 91%+ validation accuracy. Uses Google BERT encoding as input for a Deep Bidirectional-LSTM Neural Network. Dataset consists of decent-length articles balanced for political leaning and spanning a diverse spectrum of reliability to fit the real-world newsscape. Initial research for this model available at https://github.com/michaelznidarsic/FakeNewsDetection
 
-This model uses BERT-Mini embedding layer made available by Google at https://github.com/google-research/bert. The layer was initialized with the pre-trained weights, but fine-tuned during model training.
+This model uses the BERT-Mini 256D embedding layer made available by Google at https://github.com/google-research/bert. The layer was initialized with the pre-trained weights, but fine-tuned during model training.
 
 Articles from the AllTheNews corpus and Several27's FakeNewsCorpus were selected to create a new dataset. Publications to be labelled "Reliable" were handpicked to comprise a group of fact-based articles with reasonable levels of bias. To remove the possibility of the model conflating a given political leaning with reliability, equal numbers of articles leaning Left and Right, with many also included from the Center. The political leaning and reliability of the publications included were partly advised by mediabiasfactcheck.com.
 
